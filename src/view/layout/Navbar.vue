@@ -11,7 +11,7 @@
             首页
           </el-dropdown-item>
         </router-link>
-        <a target='_blank' href="https://github.com/fighting-girls/bright-night">
+        <a target='_blank' href="https://github.com/dengjiayao/bright-night">
           <el-dropdown-item>
             项目地址
           </el-dropdown-item>

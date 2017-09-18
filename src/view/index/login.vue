@@ -16,7 +16,7 @@
       <i aria-hidden="true" class="fa fa-lock" style="font-size: 30px;margin-right: 4px;"></i>
         <el-input type="password" v-model="ruleForm2.pass" @keyup.enter.native="submitForm('ruleForm2')"  auto-complete="off" style="width: 81%;">
         </el-input>
-        <p style="color:#2894FF; padding-left: 40px; font-size: 12px">测试账号：123/123123</p>
+        <p style="color:#2894FF; padding-left: 40px; font-size: 12px">测试账号：123/123456</p>
       </el-form-item>
       
       <div class="sub">
@@ -54,7 +54,7 @@
         var validatePass = (rule, value, callback) => {
           if (value === '') {
             callback(new Error('请输入密码'));
-          } else if (value !== '123123') {
+          } else if (value !== '123456') {
             callback(new Error('密码错误!'));
           } else {
             callback();

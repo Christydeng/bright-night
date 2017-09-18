@@ -52,6 +52,12 @@
                 <router-link to="/index/user/newUser"><el-menu-item index="6-3">入职新员工</el-menu-item></router-link>
                 <router-link to="/index/user/sale"><el-menu-item index="6-4">员工销售额管理</el-menu-item></router-link>
             </el-submenu>
+
+            <el-submenu index="7">
+              <template slot="title"><i class="fa fa-users menu-icon"></i>学生管理<i class="el-submenu__icon-arrow el-icon-caret-bottom"></i></template>
+                <router-link to="/index/students/listStudents"><el-menu-item index="7-1">学生列表</el-menu-item></router-link>
+                <router-link to="/index/students/addStudent"><el-menu-item index="7-2">添加学生</el-menu-item></router-link>
+            </el-submenu>
             
           </el-menu>
         </el-col>

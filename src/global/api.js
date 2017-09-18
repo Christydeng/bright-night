@@ -9,6 +9,9 @@ let url = {
 };
 
 //----------------请注意：如果正式环境，不需要本地json数据模拟，请删除以上代码和api中的模拟接口。----------------
+
+let nodeApiBaseUrl = "http://127.0.0.1:3000";
+
 export const api = {
             'chakan':url.staticPath+'dataJson/chakan.json',
             'customerOrder':url.staticPath+'dataJson/customerOrder.json',
@@ -36,5 +39,13 @@ export const api = {
             'success':url.staticPath+'testDataJson/success.json', 
             'waitedPay':url.staticPath+'testDataJson/waitedPay.json',
             'waitedSend':url.staticPath+'testDataJson/waitedSend.json',
-            'echartsJson':url.staticPath+'testDataJson/echartsJson.json',  
+            'echartsJson':url.staticPath+'testDataJson/echartsJson.json',
+
+
+            //请求接口
+            'addStudent': nodeApiBaseUrl + '/api/addStu',  //添加学生的接口
+            'listStudents': nodeApiBaseUrl + '/api/queryStu',  //获取学生列表接口
+            'queryStudentItem': nodeApiBaseUrl + '/api/queryStuItem',  //获取单个学生信息接口 
+            'modifyStudent': nodeApiBaseUrl + '/api/modifyStu',  //修改学生信息接口
+            'deleteStudent': nodeApiBaseUrl + '/api/delStu'  //删除学生信息接口
     }

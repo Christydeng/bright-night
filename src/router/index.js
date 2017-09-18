@@ -56,6 +56,11 @@ import ShowSendInfo from '@/view/order/showSendInfo'
 import OrderColleague from '@/view/order/orderColleague'
 import DayThree from '@/view/order/dayThree'
 
+//学生管理组件
+import ListStudents from '@/view/x-students/listStudents'
+import UpdateStudent from '@/view/x-students/updateStudent'
+import AddStudent from '@/view/x-students/addStudent'
+
 export default new Router({
   routes: [
     {
@@ -140,6 +145,9 @@ export default new Router({
             { path: 'dayThree', component: DayThree, name: '第三天' }
           ]
         },
+        { path: 'students/listStudents', component: ListStudents, name: '学生列表' },
+        { path: 'students/updateStudent', component: UpdateStudent, name: '修改学生信息' },
+        { path: 'students/addStudent', component: AddStudent, name: '添加学生' }
       ]
     },    
   ]
