@@ -1,6 +1,6 @@
 # bright-night
 
-因为后来添加的学生管理模块需要用到接口， 所以需要配置数据库（MongoDB）的环境， 还要写接口， 接口代码在bright-night-demo， 启动时先启动MongoDB数据库， 再启动后台（下载bright-night-demo代码， npm install， npm start即启动后台）， 再启动此项目
+因为后来添加的学生管理模块需要用到接口， 所以需要配置数据库（MongoDB）的环境， 还要写接口， 接口代码还没贴， 启动时先启动MongoDB数据库， 再启动后台， 再启动此项目
 
 
 附： MongoDB的安装和使用
