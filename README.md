@@ -1,5 +1,7 @@
 # bright-night
 
+提问网址：https://github.com/dengjiayao/bright-night/issues 
+
 因为后来添加的学生管理模块需要用到接口， 所以需要配置数据库（MongoDB）的环境， 还要写接口， 接口代码还没贴， 启动时先启动MongoDB数据库， 再启动后台， 再启动此项目
 
 
